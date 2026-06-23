@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page 3</title>
+
+<style>
+body{
+margin:0;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#1a1a1a,#2c3e50);
+color:white;
+font-family:Arial;
+text-align:center;
+}
+
+.poem{
+max-width:650px;
+padding:20px;
+line-height:30px;
+animation:fade 2s;
+}
+
+@keyframes fade{
+from{opacity:0;}
+to{opacity:1;}
+}
+
+button{
+margin-top:20px;
+padding:10px 25px;
+border:none;
+border-radius:20px;
+background:white;
+font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="poem">
+
+<p>
+mene ek choti si poetry likhi hai tere liye (me poet nahi hu bas ek koshish hai)<br><br>
+
+"Tujhe chand🌕 likhu....<br>
+Ya mera khwaab✨ likhu..?<br>
+Ya fir dono chod,<br>
+Kya me tujhe mera sansaar likhu..?<br><br>
+
+Tujhpe aakhir likhu to kya likhu?<br>
+Mere dil ka sukoon🍃 likhu..?<br>
+Ya mere armaan🥀 likhu??<br><br>
+
+Kya likh du tujhe me apna.... 🩷<br>
+Ya mera bhagwaan likhu..??? 🌷"
+</p>
+
+<button onclick="next()">Next</button>
+
+</div>
+
+<script<script>
+document.addEventListener("click",()=>{
+document.getElementById("bgmusic").play();
+});
+</script>>
+function next(){
+window.location.href="page4.html";
+}
+</script>
+
+</body<audio id="bgmusic" autoplay loop>
+<source src="bg.mp3" type="audio/mp3">
+</audio>>
+</html>
